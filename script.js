@@ -1,4 +1,4 @@
-/* Vishnu Prasad V — Academic Website
+/* Vishnu Prasad V - Academic Website
    Mobile nav + smooth scroll + active section + print
    ==================================================== */
 

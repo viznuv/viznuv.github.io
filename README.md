@@ -1,15 +1,15 @@
-# Vishnu Prasad V — Academic Website
+# Vishnu Prasad V - Academic Website
 
 Personal academic website of Vishnu Prasad V, Assistant Professor of Marketing at Jio Institute.
-Pure static HTML/CSS/JS — no build step, no framework.
+Pure static HTML/CSS/JS - no build step, no framework.
 
 ## Research
 
 The site is organised around a three-pillar research programme:
 
-1. **Consumer Psychology in Virtual Environments** — psychological mechanisms in novel digital consumption contexts
-2. **Algorithmic Marketing & Human–AI Interaction** — how algorithms shape, and are shaped by, consumer behaviour
-3. **Brand Ethics & Societal Engagement** — normative dimensions of brand–consumer relationships
+1. **Consumer Psychology in Virtual Environments** - psychological mechanisms in novel digital consumption contexts
+2. **Algorithmic Marketing & Human–AI Interaction** - how algorithms shape, and are shaped by, consumer behaviour
+3. **Brand Ethics & Societal Engagement** - normative dimensions of brand–consumer relationships
 
 ## Site Map
 
@@ -48,7 +48,7 @@ profile.jpg             # Portrait
 
 ## Deployment
 
-GitHub Pages — push to the `main` branch of `viznuv.github.io`.
+GitHub Pages - push to the `main` branch of `viznuv.github.io`.
 
 ## Contact
 
@@ -59,4 +59,4 @@ Vishnu Prasad V · Assistant Professor, Marketing Area · Jio Institute, Navi Mu
 
 ---
 
-© 2026 Vishnu Prasad V — Last updated February 2026
+© 2026 Vishnu Prasad V - Last updated February 2026

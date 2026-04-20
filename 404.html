@@ -3,56 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found | Dr. Vishnu Prasad V</title>
-    <meta name="description" content="Page not found - Dr. Vishnu Prasad V's academic website">
+    <title>Page Not Found — Vishnu Prasad V</title>
+    <meta name="description" content="The requested page does not exist on Vishnu Prasad V's academic website.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <div class="header-content">
-                <div class="header-main">
-                    <h1>Dr. Vishnu Prasad V</h1>
-                    <p class="title">Assistant Professor, Marketing Area<br>Jio Institute</p>
-                </div>
-                <nav class="header-nav">
-                    <a href="index.html">Home</a>
-                    <a href="index.html#education">Education</a>
-                    <a href="index.html#teaching">Teaching</a>
-                    <a href="research-programme.html">Research Programme</a>
-                    <a href="working-projects.html">Working Projects</a>
-                    <a href="vision-values.html">Vision & Values</a>
-                </nav>
-            </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" role="banner">
+        <div class="nav-inner">
+            <a class="nav-brand" href="index.html">
+                Vishnu Prasad V
+                <small>Jio Institute · Marketing</small>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research-programme.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="teaching-service.html">Teaching</a></li>
+                <li><a href="working-projects.html">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
         </div>
     </header>
 
-    <main class="site-main">
-        <div class="container">
-            <section class="page-header">
+    <main id="main">
+        <header class="page-header">
+            <div class="container container--narrow">
+                <span class="section-eyebrow">404</span>
                 <h1>Page Not Found</h1>
-                <p class="section-intro">
-                    The page you're looking for doesn't exist. Please use the navigation above or return to the homepage.
-                </p>
-            </section>
+                <p class="section-lede">The page you're looking for doesn't exist or may have moved. Use the
+                navigation above or jump to a known destination below.</p>
+            </div>
+        </header>
 
-            <section class="content-section">
-                <div class="cta-group">
-                    <a href="index.html" class="btn btn-primary">Return to Homepage</a>
-                    <a href="research-programme.html" class="btn btn-secondary">View Research</a>
+        <section class="section">
+            <div class="container container--narrow">
+                <div class="btn-group">
+                    <a class="btn btn-primary" href="index.html">Return Home</a>
+                    <a class="btn btn-secondary" href="cv.html">View CV</a>
+                    <a class="btn btn-ghost" href="publications.html">Publications</a>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Dr. Vishnu Prasad V — Academic Website</p>
+            <p>&copy; <span data-year>2026</span> Vishnu Prasad V · Last updated February 2026</p>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research-programme.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>

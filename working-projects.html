@@ -3,140 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Working Solutions | Dr. Vishnu Prasad V</title>
-    <meta name="description" content="Working Solutions & Research Initiatives - Dr. Vishnu Prasad V's ongoing research projects at various stages of development.">
+    <title>Working Projects — Vishnu Prasad V</title>
+    <meta name="description" content="Five pilot-phase research projects spanning visual saliency, contextual bandits, marketing-mix modeling, dynamic pricing, and NFT brand signaling.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <div class="header-content">
-                <div class="header-main">
-                    <h1>Dr. Vishnu Prasad V</h1>
-                    <p class="title">Assistant Professor, Marketing Area<br>Jio Institute</p>
-                </div>
-                <nav class="header-nav">
-                    <a href="index.html">Home</a>
-                    <a href="index.html#education">Education</a>
-                    <a href="index.html#teaching">Teaching</a>
-                    <a href="research-programme.html">Research Programme</a>
-                    <a href="working-projects.html" class="active">Working Projects</a>
-                    <a href="vision-values.html">Vision & Values</a>
-                </nav>
-            </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" role="banner">
+        <div class="nav-inner">
+            <a class="nav-brand" href="index.html">
+                Vishnu Prasad V
+                <small>Jio Institute · Marketing</small>
+            </a>
+            <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research-programme.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="teaching-service.html">Teaching</a></li>
+                <li><a href="working-projects.html" aria-current="page">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
         </div>
     </header>
 
-    <main class="site-main">
-        <div class="container">
-            <section class="page-header">
-                <h1>Working Solutions & Research Initiatives</h1>
-                <p class="section-intro">
-                    Ongoing research initiatives at various stages of the scientific method.
-                </p>
-                <div class="project-stats">
-                    <span class="stat">9 Active Initiatives</span>
-                    <span class="stat">2 Data Collection</span>
-                    <span class="stat">2 Model Development</span>
-                </div>
-            </section>
+    <main id="main">
+        <header class="page-header">
+            <div class="container container--narrow">
+                <span class="section-eyebrow">Pilot Phase</span>
+                <h1>Working Projects</h1>
+                <p class="section-lede">Five computational marketing projects currently in pilot stage, spanning
+                computer vision, reinforcement learning, hierarchical Bayes, and graph neural networks.</p>
+            </div>
+        </header>
 
-            <section class="content-section">
-                <div class="working-projects">
-                    <article class="working-project">
-                        <h3>Visual Saliency Analysis: Thumbnail Optimization Framework</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Investigate visual saliency and click-through-rate<br>
-                            <strong>Methods:</strong> Computer vision saliency detection, mixed-effects models<br>
-                            <strong>Gain:</strong> +23% CTR prediction accuracy
-                        </p>
+        <section class="section">
+            <div class="container">
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>Visual Saliency Analysis: Thumbnail Optimisation Framework</h3>
+                        <dl class="project-meta-row">
+                            <dt>Methods</dt>
+                            <dd>Computer-vision saliency detection, mixed-effects models</dd>
+                            <dt>Status</dt>
+                            <dd>+23% CTR prediction accuracy; manuscript in preparation</dd>
+                        </dl>
                     </article>
-
-                    <article class="working-project">
-                        <h3>Contextual Bandit Optimization: Dynamic Budget Allocation</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Adaptive optimization framework for marketing budgets<br>
-                            <strong>Methods:</strong> Contextual bandits with Thompson sampling<br>
-                            <strong>Status:</strong> Algorithm validated on synthetic data; Field deployment planned<br>
-                            <strong>Keywords:</strong> Contextual Bandits, Regret Minimization
-                        </p>
+                    <article class="project-card">
+                        <h3>Contextual Bandit Optimisation: Dynamic Budget Allocation</h3>
+                        <dl class="project-meta-row">
+                            <dt>Methods</dt>
+                            <dd>Contextual bandits with Thompson sampling, regret minimisation</dd>
+                            <dt>Status</dt>
+                            <dd>Algorithm validated; field deployment planned</dd>
+                        </dl>
                     </article>
-
-                    <article class="working-project">
+                    <article class="project-card">
                         <h3>Influencer Marketing-Mix Modeling: Cross-Platform Attribution</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Quantify incremental impact of influencer marketing<br>
-                            <strong>Methods:</strong> Hierarchical Bayes<br>
-                            <strong>Status:</strong> Data pre-processed; Model fitting scheduled Q1 2025
-                        </p>
+                        <dl class="project-meta-row">
+                            <dt>Methods</dt>
+                            <dd>Hierarchical Bayes</dd>
+                            <dt>Status</dt>
+                            <dd>Model fitting scheduled Q1 2026</dd>
+                        </dl>
                     </article>
-
-                    <article class="working-project">
-                        <h3>Dynamic Pricing Optimization: Q-Learning Framework</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Reinforcement learning for dynamic pricing in quick-commerce<br>
-                            <strong>Methods:</strong> Q-learning, ε-greedy<br>
-                            <strong>Status:</strong> Validated on synthetic scenarios; Retail pilot in progress
-                        </p>
+                    <article class="project-card">
+                        <h3>Dynamic Pricing Optimisation: Q-Learning Framework</h3>
+                        <dl class="project-meta-row">
+                            <dt>Methods</dt>
+                            <dd>Q-learning, ε-greedy exploration</dd>
+                            <dt>Status</dt>
+                            <dd>Retail pilot in progress</dd>
+                        </dl>
                     </article>
-
-                    <article class="working-project">
-                        <h3>News Sentiment Dynamics: System Dynamics Modeling</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Model temporal dynamics of news sentiment on brand search<br>
-                            <strong>Methods:</strong> Monte Carlo simulation & sentiment-trajectory analysis<br>
-                            <strong>Status:</strong> Simulation engine live; Manuscript drafting
-                        </p>
-                    </article>
-
-                    <article class="working-project">
+                    <article class="project-card">
                         <h3>NFT Brand Signaling: Network Analysis Framework</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Investigate NFT ownership patterns & exclusivity signaling<br>
-                            <strong>Methods:</strong> Graph neural networks, social-media sentiment mining<br>
-                            <strong>Status:</strong> Data scrape ongoing; GNN architecture under development
-                        </p>
-                    </article>
-
-                    <article class="working-project">
-                        <h3>Institutional Logics of AI Adoption: Multi-Level Study</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Examine how competing institutional logics (efficiency vs. legitimacy) shape organizational AI adoption decisions<br>
-                            <strong>Methods:</strong> Mixed-method case analysis & fuzzy-set QCA<br>
-                            <strong>Status:</strong> Interviews & archival coding underway
-                        </p>
-                    </article>
-
-                    <article class="working-project">
-                        <h3>Impact of LLMs in Digital Marketing: Productivity & Creativity Effects</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Quantify campaign cycle-time reduction and creative diversity lift from LLM integration<br>
-                            <strong>Methods:</strong> Difference-in-differences on agency panel data<br>
-                            <strong>Status:</strong> Baseline established, rollout tracking Q3 2025
-                        </p>
-                    </article>
-
-                    <article class="working-project">
-                        <h3>AI-Driven Opinion Change: Conversational Persuasion Dynamics</h3>
-                        <p>
-                            <strong>Research Objective:</strong> Model how iterative LLM-mediated dialogues shift consumer attitudes on polarising issues<br>
-                            <strong>Methods:</strong> RCT chatbot experiments, SEM moderation<br>
-                            <strong>Status:</strong> Prototype live
-                        </p>
+                        <dl class="project-meta-row">
+                            <dt>Methods</dt>
+                            <dd>Graph neural networks, social-media sentiment mining</dd>
+                            <dt>Status</dt>
+                            <dd>GNN architecture under development</dd>
+                        </dl>
                     </article>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <section class="section section--alt">
+            <div class="container text-center">
+                <div class="btn-group" style="justify-content:center;">
+                    <a class="btn btn-primary" href="research-programme.html">Research Programme</a>
+                    <a class="btn btn-secondary" href="publications.html">Publications</a>
+                    <a class="btn btn-ghost" href="vision-values.html">Vision &amp; Values</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Dr. Vishnu Prasad V — Academic Website</p>
+            <p>&copy; <span data-year>2026</span> Vishnu Prasad V · Last updated February 2026</p>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research-programme.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>

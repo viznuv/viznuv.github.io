@@ -1,56 +1,62 @@
-# Dr. Vishnu Prasad V - Academic Website
+# Vishnu Prasad V — Academic Website
 
-Professional academic website for Dr. Vishnu Prasad V, Assistant Professor of Marketing at Jio Institute.
+Personal academic website of Vishnu Prasad V, Assistant Professor of Marketing at Jio Institute.
+Pure static HTML/CSS/JS — no build step, no framework.
 
-## Overview
+## Research
 
-A clean, professional academic website showcasing research in:
-- Marketing Technologies & AI-Driven Consumer Insights
-- Brand Activism & Consumer Ethics  
-- Digital Communication & Societal Dynamics
+The site is organised around a three-pillar research programme:
 
-## Website Structure
+1. **Consumer Psychology in Virtual Environments** — psychological mechanisms in novel digital consumption contexts
+2. **Algorithmic Marketing & Human–AI Interaction** — how algorithms shape, and are shaped by, consumer behaviour
+3. **Brand Ethics & Societal Engagement** — normative dimensions of brand–consumer relationships
+
+## Site Map
 
 ```
-├── index.html              # Homepage
-├── research-programme.html # Comprehensive research portfolio
-├── working-projects.html   # 9 active research initiatives
-├── vision-values.html      # Research philosophy & vision
-├── 404.html               # Error page
-├── styles.css             # Professional CSS styling
-├── script.js              # Minimal JavaScript
-└── profile.jpg            # Profile photograph
+index.html              # Landing: hero, metrics, awards, pillars, education, experience
+cv.html                 # Full CV (print-ready, single scroll)
+publications.html       # Peer-reviewed · under review · in progress · invitations · conferences
+research-programme.html # Three-pillar research overview
+working-projects.html   # Five pilot-phase projects
+vision-values.html      # Research philosophy + methodological competencies
+teaching-service.html   # Courses · academic & university service · executive education · industry projects
+404.html                # Not-found page
+styles.css              # Design system + components + print styles
+script.js               # Sticky-nav, mobile toggle, smooth scroll, active-section highlighting
+profile.jpg             # Portrait
 ```
 
 ## Features
 
-- **Professional Design**: Clean typography with EB Garamond & Inter fonts
-- **Responsive Layout**: Mobile-first design approach
-- **Fast Loading**: Minimal dependencies, optimized performance
-- **Accessible**: Semantic HTML5, proper heading structure
-- **Print-Ready**: Optimized print stylesheets
+- Sticky translucent navigation with mobile toggle
+- Hero with portrait and gold accent ring
+- Stat-card metrics strip (publications, awards, conferences, participants)
+- Award showcase with gold left-border + ribbon icon
+- Numbered, colour-coded research-pillar cards
+- Publication cards with ABDC / FT50 chips and status pills
+- Vertical timelines for education and experience
+- Print-optimised CV (`window.print()` button)
+- Skip-link, ARIA labels, visible focus rings, `prefers-reduced-motion` honoured
 
-## Technical Details
+## Tech Notes
 
-- Pure HTML5 & CSS3 (no frameworks)
-- Minimal JavaScript for smooth scrolling
-- Mobile-responsive design
-- Cross-browser compatible
-- WCAG accessibility considerations
+- Fonts: EB Garamond (body) + Inter (UI), `font-display: swap`
+- No JS framework, no package manager, no analytics
+- All internal links relative; external links open in a new tab with `rel="noopener"`
+- Tested for desktop (≥ 1024 px), tablet (768 px), and mobile (≥ 360 px)
 
 ## Deployment
 
-Designed for GitHub Pages deployment. Push to `username.github.io` repository for automatic deployment.
+GitHub Pages — push to the `main` branch of `viznuv.github.io`.
 
 ## Contact
 
-Dr. Vishnu Prasad V  
-Assistant Professor, Marketing Area  
-Jio Institute
+Vishnu Prasad V · Assistant Professor, Marketing Area · Jio Institute, Navi Mumbai
 
-📧 vishnuprasad@sjmsom.in  
-📧 vishnu19.v@jioinstitute.edu.in
+- Email: [Vishnu19.V@jioinstitute.edu.in](mailto:Vishnu19.V@jioinstitute.edu.in)
+- GitHub: [github.com/viznuv](https://github.com/viznuv)
 
 ---
 
-© 2025 Dr. Vishnu Prasad V 
+© 2026 Vishnu Prasad V — Last updated February 2026
